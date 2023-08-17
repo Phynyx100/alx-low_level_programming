@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * positive_or_negative - Determines whether an integer is positive,
+ * negative or zero.
+ * @i: The integer to check.
+ */
 void positive_or_negative(int i)
 {
 			if (i > 0)
@@ -11,5 +16,5 @@ void positive_or_negative(int i)
 
 			else
 
-			printf("%d is negave\n", i);
+			printf("%d is negative\n", i);
 }
