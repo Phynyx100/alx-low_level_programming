@@ -4,8 +4,8 @@
  * add_nodeint_end - adds node at ending of linked list
  * @head: first elementpointer in the list
  * @n: new element data insert
- * Return: pntr/address to the new elemnt, or NULL 
- **/
+ * Return: pntr/address to the new elemnt, or NULL
+ */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
